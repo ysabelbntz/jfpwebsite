@@ -1,3 +1,44 @@
-h1{
-	color: pink;
+body{
+	background-color: white;
 }
+
+/* ----------- SECTION 1: GO FOR JEGO ----------- */
+
+#section1{
+	background-color: #0072BB;
+	height: 100vh;
+}
+
+#landing_text1{
+	color: white;
+	font-family: 'Permanent Marker';
+	font-size: 12vw;
+	font-style: italic;
+	font-weight: 500;
+	text-align: center;
+	vertical-align: middle;
+	left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.blink{
+	color: white;
+	-webkit-animation: blink 1.5s step-start infinite;
+	animation: blink 1.5s step-start infinite;
+}
+
+@-webkit-keyframes blink {
+	0% { color: white }
+	25% { color: yellow }
+}
+@keyframes blink {
+	0% { color: white }
+	25% { color: yellow }
+}
+
+/* ----------- END OF SECTION 1 ----------- */
