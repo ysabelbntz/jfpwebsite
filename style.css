@@ -1,5 +1,6 @@
 body{
 	background-color: white;
+	color: white;
 }
 
 /* ----------- SECTION 1: GO FOR JEGO ----------- */
@@ -9,9 +10,9 @@ body{
 	height: 100vh;
 }
 
-#landing_text1{
+#sec1_text{
 	color: white;
-	font-family: 'Permanent Marker';
+	font-family: 'Permanent Marker', cursive;
 	font-size: 12vw;
 	font-style: italic;
 	font-weight: 500;
@@ -26,19 +27,59 @@ body{
     width: 100%;
 }
 
+#tosec2:link, #tosec2:visited, #tosec2:active{
+	text-decoration: none;
+	color: white;
+}
+
+#tosec2:hover{
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #FED766;
+}
+
 .blink{
 	color: white;
-	-webkit-animation: blink 1.5s step-start infinite;
+	-webkit-animation: blink 2s step-start infinite;
 	animation: blink 1.5s step-start infinite;
 }
 
 @-webkit-keyframes blink {
 	0% { color: white }
-	25% { color: yellow }
+	25% { color: #FED766 }
 }
 @keyframes blink {
 	0% { color: white }
-	25% { color: yellow }
+	25% { color: #FED766 }
+}
+
+/* ----------- END OF SECTION 1 ----------- */
+
+/* ----------- SECTION 2: WHO IS JEGO? ----------- */
+
+#section2{
+	height: 100vh;
+	width: 100%;
+}
+
+#sec2_text{
+	color: #0072BB;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 12vw;
+	font-weight: 500;
+	text-align: left;
+	margin-left: 10%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+#sec2_text2{
+	color: #121619;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5vw;
+	font-style: italic;
+	line-height:36px;
+	text-align: left;
 }
 
 /* ----------- END OF SECTION 1 ----------- */
