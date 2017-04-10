@@ -7,7 +7,7 @@ body{
 
 #section1{
 	background-color: #0072BB;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 #sec1_text{
@@ -58,18 +58,20 @@ body{
 /* ----------- SECTION 2: WHO IS JEGO? ----------- */
 
 #section2{
-	height: 100vh;
+	min-height: 85vh;
 	width: 100%;
+	background-color: white;
 }
 
 #sec2_text{
 	color: #0072BB;
 	font-family: 'Permanent Marker', cursive;
-	font-size: 12vw;
+	font-size: 10vw;
 	font-weight: 500;
-	text-align: left;
-	margin-left: 10%;
-    margin-top: 5%;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+    margin-top: 3%;
     position: absolute;
 }
 
@@ -79,7 +81,189 @@ body{
 	font-size: 1.5vw;
 	font-style: italic;
 	line-height: 180%;
-	text-align: left;
+	text-align: center;
+	margin-bottom: 13%;
+}
+
+.button_group{
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.btn1, .btn1:link, .btn1:visited, .btn1:active {
+  /*
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  border: solid #0072BB 2px;
+  padding: 12px 40px 12px 40px;
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0072BB;
+  font-size: 1.5vw;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  position: static;
+  margin-right: 6.5%;
+  border-bottom: solid #0072BB 2px;
+}
+
+.btn2, .btn2:link, .btn2:visited, .btn2:active {
+  /*
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  border: solid #0072BB 2px;
+  padding: 12px 40px 12px 40px;
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0072BB;
+  font-size: 1.5vw;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  position: static;
+  margin-right: 6.5%;
+  margin-left: 6.5%;
+  border-bottom: solid #0072BB 2px;
+}
+
+.btn3, .btn3:link, .btn3:visited, .btn3:active {
+  /*
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  border: solid #0072BB 2px;
+  padding: 12px 40px 12px 40px;
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0072BB;
+  font-size: 1.5vw;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  margin-left: 6.5%;
+  position: static;
+  border-bottom: solid #0072BB 2px;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+  text-decoration: none;
+  color: #FED766;
 }
 
 /* ----------- END OF SECTION 2 ----------- */
+
+/* ----------- SECTION 3: WHY JEGO? ----------- */
+
+#section3{
+	width: 100%;
+	background-color: #FED766;
+	min-height: 80vh;
+}
+
+/*
+#sec3_text{
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 10vw;
+	font-weight: 500;
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 35%;
+    margin-top: 3%;
+}
+
+.button_group-1{
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.btn1-1, .btn1-1:link, .btn1-1:visited, .btn1-1:active {
+  /*
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  border: solid #0072BB 2px;
+  padding: 12px 40px 12px 40px;
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0072BB;
+  font-size: 1.5vw;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  position: static;
+  margin-right: 6.5%;
+  border-bottom: solid #0072BB 2px;
+}
+
+.btn2-1, .btn2-1:link, .btn2-1:visited, .btn2-1:active {
+  /*
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  border: solid #0072BB 2px;
+  padding: 12px 40px 12px 40px;
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0072BB;
+  font-size: 1.5vw;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  position: static;
+  margin-right: 6.5%;
+  margin-left: 6.5%;
+  border-bottom: solid #0072BB 2px;
+}
+
+.btn3-1, .btn3-1:link, .btn3-1:visited, .btn3-1:active {
+  /*
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  border: solid #0072BB 2px;
+  padding: 12px 40px 12px 40px;
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #0072BB;
+  font-size: 1.5vw;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  top: 0;
+  bottom: 0;
+  margin-left: 6.5%;
+  position: static;
+  border-bottom: solid #0072BB 2px;
+}
+
+.btn1-1:hover, .btn2-1:hover, .btn3-1:hover {
+  text-decoration: none;
+  color: white;
+}
+*/
+
+/* ----------- END OF SECTION 3 ----------- */
