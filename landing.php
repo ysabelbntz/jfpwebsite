@@ -1,6 +1,6 @@
 <?php
 
-echo ("<!DOCTYPE HTML>
+echo ('<!DOCTYPE HTML>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -8,7 +8,7 @@ echo ("<!DOCTYPE HTML>
 	<title>Jego Reyes for MISA President</title>
 	<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	<link href='http://fonts.googleapis.com/css?family=Permanent-Marker' rel='stylesheet' type='text/css'/>
+	<link href=\'http://fonts.googleapis.com/css?family=Permanent-Marker\' rel=\'stylesheet\' type=\'text/css\'/>
 	<script src="js/respond.min.js"></script>
 </head>
 <body>
@@ -19,6 +19,6 @@ echo ("<!DOCTYPE HTML>
 		
 	</section>
 </body>
-</html>")
+</html>');
 
 ?>
